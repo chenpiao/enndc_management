@@ -1,0 +1,466 @@
+2016-07-18 14:51:24,271 [MainThread:140357862565632] [vmserver:352] [tasks:charge_info_update] [INFO]- global name 'ListInfoLog' is not defined
+2016-07-18 14:58:42,446 [MainThread:139640412366592] [vmserver:352] [tasks:charge_info_update] [INFO]- global name 'ListInfoLog' is not defined
+2016-07-18 15:05:47,409 [MainThread:140621031622400] [vmserver:357] [tasks:charge_info_update] [INFO]- created 0 vms
+2016-07-18 15:07:14,845 [MainThread:140621031622400] [vmserver:313] [tasks:charge_info_update] [INFO]- lcndc2wzcgdb01t has cpu change
+2016-07-18 15:07:14,870 [MainThread:140621031622400] [vmserver:326] [tasks:charge_info_update] [INFO]- lcndc2wzcgdb01t has mem change
+2016-07-18 15:07:15,396 [MainThread:140621031622400] [vmserver:357] [tasks:charge_info_update] [INFO]- created 0 vms
+2016-07-18 17:35:05,709 [MainThread:140692463527680] [vmserver:356] [tasks:charge_info_update] [INFO]- created 0 vms
+2016-07-19 10:48:43,758 [MainThread:140120754550528] [vmserver:356] [tasks:charge_info_update] [INFO]- created 0 vms
+2016-07-20 09:54:16,947 [MainThread:139648648955648] [vmserver:356] [tasks:charge_info_update] [INFO]- created 0 vms
+2016-07-20 14:26:04,510 [MainThread:140011885098752] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-20 14:26:04,544 [MainThread:140011885098752] [vmserver:354] [tasks:charge_info_update] [INFO]- 50265298-7406-eb63-ca5e-90bb282d77da-elcndc2swdb01 has created
+2016-07-20 14:26:04,779 [MainThread:140011885098752] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-20 14:26:04,785 [MainThread:140011885098752] [vmserver:354] [tasks:charge_info_update] [INFO]- 50264ea5-9432-1469-a11f-75cf40617a5b-encndc2spm01 has created
+2016-07-20 14:26:04,834 [MainThread:140011885098752] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-20 14:26:04,839 [MainThread:140011885098752] [vmserver:354] [tasks:charge_info_update] [INFO]- 5026637f-dbfa-072a-dbbc-7bfea5d3811a-encndc2k3ts02 has created
+2016-07-20 14:26:04,853 [MainThread:140011885098752] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-20 14:26:04,858 [MainThread:140011885098752] [vmserver:354] [tasks:charge_info_update] [INFO]- 50269159-5112-22ff-439c-2c3f3a5866a3-encndc2k3ts01 has created
+2016-07-20 14:26:05,127 [MainThread:140011885098752] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-20 14:26:05,133 [MainThread:140011885098752] [vmserver:354] [tasks:charge_info_update] [INFO]- 5026ce43-f9d9-8ecd-b1f2-71d0038d79aa-elcndc2swdb02 has created
+2016-07-20 14:26:05,135 [MainThread:140011885098752] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-20 14:26:05,139 [MainThread:140011885098752] [vmserver:354] [tasks:charge_info_update] [INFO]- 50265571-106e-c0c0-0d6c-dfe9304722ad-elcndc2swgl01 has created
+2016-07-20 14:26:05,268 [MainThread:140011885098752] [vmserver:338] [tasks:charge_info_update] [INFO]- encndc2zuep02 has disk change
+2016-07-20 14:26:05,468 [MainThread:140011885098752] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-20 14:26:05,473 [MainThread:140011885098752] [vmserver:354] [tasks:charge_info_update] [INFO]- 5026d869-9ca2-2ab2-c0c9-76bacff0d1ac-elcndc2swgl02 has created
+2016-07-20 14:26:05,545 [MainThread:140011885098752] [vmserver:338] [tasks:charge_info_update] [INFO]- encndc2zuep01 has disk change
+2016-07-20 14:26:05,864 [MainThread:140011885098752] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-20 14:26:05,869 [MainThread:140011885098752] [vmserver:354] [tasks:charge_info_update] [INFO]- 503fbf95-6ec6-8421-1870-3f0000593849-elcndc2swkf01 has created
+2016-07-20 14:26:05,998 [MainThread:140011885098752] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-20 14:26:06,003 [MainThread:140011885098752] [vmserver:354] [tasks:charge_info_update] [INFO]- 503fb615-9227-d335-07db-8b88e0416f98-elcndc2swgl01t has created
+2016-07-20 14:26:06,224 [MainThread:140011885098752] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-20 14:26:06,229 [MainThread:140011885098752] [vmserver:354] [tasks:charge_info_update] [INFO]- 503ff2df-5204-9f53-eed7-3f7a6fd0208e-elcndc2swdb01t has created
+2016-07-20 14:26:06,332 [MainThread:140011885098752] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-20 14:26:06,337 [MainThread:140011885098752] [vmserver:354] [tasks:charge_info_update] [INFO]- 503f4a35-6e0c-7c1f-9830-e98d2f34737d-elcndc2swgl02t has created
+2016-07-20 14:26:06,619 [MainThread:140011885098752] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-20 14:26:06,625 [MainThread:140011885098752] [vmserver:354] [tasks:charge_info_update] [INFO]- 503fbf8c-df20-22a2-6fb5-ad920f2bc35f-encndc2spm01t has created
+2016-07-20 14:26:06,868 [MainThread:140011885098752] [vmserver:356] [tasks:charge_info_update] [INFO]- created 12 vms
+2016-07-21 08:55:05,610 [MainThread:140394956740352] [vmserver:338] [tasks:charge_info_update] [INFO]- encndc2rsa01 has disk change
+2016-07-21 08:55:05,917 [MainThread:140394956740352] [vmserver:312] [tasks:charge_info_update] [INFO]- elcndc2zabx02 has cpu change
+2016-07-21 08:55:05,929 [MainThread:140394956740352] [vmserver:325] [tasks:charge_info_update] [INFO]- elcndc2zabx02 has mem change
+2016-07-21 08:55:06,838 [MainThread:140394956740352] [vmserver:338] [tasks:charge_info_update] [INFO]- elcndc2swdb01t has disk change
+2016-07-21 08:55:07,929 [MainThread:140394956740352] [vmserver:356] [tasks:charge_info_update] [INFO]- created 0 vms
+2016-07-22 06:30:04,152 [MainThread:140394956740352] [vmserver:338] [tasks:charge_info_update] [INFO]- elcndc2swdb01 has disk change
+2016-07-22 06:30:04,260 [MainThread:140394956740352] [vmserver:338] [tasks:charge_info_update] [INFO]- elcndc2swdb02 has disk change
+2016-07-22 06:30:05,056 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-22 06:30:05,065 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 5026180a-9b1a-c0c5-2e94-28ce731052ff-elcndc2zbsb01 has created
+2016-07-22 06:30:06,197 [MainThread:140394956740352] [vmserver:356] [tasks:charge_info_update] [INFO]- created 1 vms
+2016-07-23 06:30:01,456 [MainThread:140394956740352] [vmserver:338] [tasks:charge_info_update] [INFO]- elcndc2bpmdb03 has disk change
+2016-07-23 06:30:01,568 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-23 06:30:01,575 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 50268819-ff9b-47d2-7b90-b8f14f770c44-ncndc1fw01 has created
+2016-07-23 06:30:01,593 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-23 06:30:01,599 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 5026a403-9992-e945-bb3f-744aa350b4f8-elcndc2bpmdb04 has created
+2016-07-23 06:30:01,931 [MainThread:140394956740352] [vmserver:312] [tasks:charge_info_update] [INFO]- encndc2cng05 has cpu change
+2016-07-23 06:30:02,208 [MainThread:140394956740352] [vmserver:312] [tasks:charge_info_update] [INFO]- encndc2cng06 has cpu change
+2016-07-23 06:30:02,485 [MainThread:140394956740352] [vmserver:338] [tasks:charge_info_update] [INFO]- elcndc2zbsb01 has disk change
+2016-07-23 06:30:03,614 [MainThread:140394956740352] [vmserver:356] [tasks:charge_info_update] [INFO]- created 2 vms
+2016-07-24 06:30:04,403 [MainThread:140394956740352] [vmserver:356] [tasks:charge_info_update] [INFO]- created 0 vms
+2016-07-25 06:30:08,356 [MainThread:140394956740352] [vmserver:356] [tasks:charge_info_update] [INFO]- created 0 vms
+2016-07-25 14:59:45,648 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ENCNDC2EXC02T has updated
+2016-07-25 14:59:45,664 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm cnlfkux001 has updated
+2016-07-25 14:59:45,679 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2dns01t has updated
+2016-07-25 14:59:45,695 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2nnew02t has updated
+2016-07-25 14:59:45,710 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2nnew04t has updated
+2016-07-25 14:59:45,727 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2dctj01t has updated
+2016-07-25 14:59:45,742 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2lyf01t-xw has updated
+2016-07-25 14:59:45,788 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3xzkf01t has updated
+2016-07-25 14:59:45,804 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3xzkf02t has updated
+2016-07-25 14:59:45,820 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2jkcs01t has updated
+2016-07-25 14:59:45,835 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ecsap01t has updated
+2016-07-25 14:59:45,850 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2hadp01t has updated
+2016-07-25 14:59:45,869 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2tred02t has updated
+2016-07-25 14:59:45,886 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2smc01t has updated
+2016-07-25 14:59:45,901 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2tsql04t has updated
+2016-07-25 14:59:45,916 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2hadoop01t has updated
+2016-07-25 14:59:45,930 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm L5000GNGI02_clone_20130608 has updated
+2016-07-25 14:59:45,945 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2tred01t has updated
+2016-07-25 14:59:45,961 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2t801t has updated
+2016-07-25 14:59:45,977 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm test0229 has updated
+2016-07-25 14:59:45,993 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm L5000GNGI01_clone_20130608 has updated
+2016-07-25 14:59:46,009 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ecez01t has updated
+2016-07-25 14:59:46,024 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2enndb02t has updated
+2016-07-25 14:59:46,040 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2sense01t has updated
+2016-07-25 14:59:46,055 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2jkcs01t has updated
+2016-07-25 14:59:46,070 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2sap740t has updated
+2016-07-25 14:59:46,089 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2doc01t has updated
+2016-07-25 14:59:46,105 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ENCNDC2TPVMLIU1 has updated
+2016-07-25 14:59:46,120 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2gytap01t has updated
+2016-07-25 14:59:46,136 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc2bop4t has updated
+2016-07-25 14:59:46,151 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2gytdb01t has updated
+2016-07-25 14:59:46,167 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2enndb01t has updated
+2016-07-25 14:59:46,182 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2enhr02t has updated
+2016-07-25 14:59:46,198 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2ad04t has updated
+2016-07-25 14:59:46,213 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ENCNDC2WEBS04T has updated
+2016-07-25 14:59:46,230 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2tomc02t has updated
+2016-07-25 14:59:46,246 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ENCNDC2CCSK01T.test.xinaogroup.com has updated
+2016-07-25 14:59:46,262 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ysjzl01t has updated
+2016-07-25 14:59:46,278 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc2bop5t has updated
+2016-07-25 14:59:46,293 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2mong01t has updated
+2016-07-25 14:59:46,308 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2wasl01t has updated
+2016-07-25 14:59:46,330 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc2data01t has updated
+2016-07-25 14:59:46,347 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2t802t has updated
+2016-07-25 14:59:46,361 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1eas6-clone has updated
+2016-07-25 14:59:46,387 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2A10t04 has updated
+2016-07-25 14:59:46,404 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt12 has updated
+2016-07-25 14:59:46,421 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ecck01 has updated
+2016-07-25 14:59:46,436 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt07 has updated
+2016-07-25 14:59:46,455 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ecxx02 has updated
+2016-07-25 14:59:46,472 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt01 has updated
+2016-07-25 14:59:46,489 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3xyzfap09 has updated
+2016-07-25 14:59:46,504 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3enew05 has updated
+2016-07-25 14:59:46,520 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt22 has updated
+2016-07-25 14:59:46,536 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt23 has updated
+2016-07-25 14:59:46,552 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3nyjs01 has updated
+2016-07-25 14:59:46,567 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3yl01t has updated
+2016-07-25 14:59:46,582 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3eeto02 has updated
+2016-07-25 14:59:46,597 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2bcap01 has updated
+2016-07-25 14:59:46,612 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3hmqy01 has updated
+2016-07-25 14:59:46,630 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ecbf01 has updated
+2016-07-25 14:59:46,647 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3ecejmqt04t has updated
+2016-07-25 14:59:46,662 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3enew04 has updated
+2016-07-25 14:59:46,678 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt16 has updated
+2016-07-25 14:59:46,694 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt14 has updated
+2016-07-25 14:59:46,709 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3enndb01 has updated
+2016-07-25 14:59:46,724 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2A10t02 has updated
+2016-07-25 14:59:46,739 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt03 has updated
+2016-07-25 14:59:46,754 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ecxx01 has updated
+2016-07-25 14:59:46,771 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3ecejngh02 has updated
+2016-07-25 14:59:46,786 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3xygw02 has updated
+2016-07-25 14:59:46,801 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3ecejmqt05t has updated
+2016-07-25 14:59:46,816 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3enn02 has updated
+2016-07-25 14:59:46,831 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt24 has updated
+2016-07-25 14:59:46,847 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3enn01 has updated
+2016-07-25 14:59:46,862 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3enew02 has updated
+2016-07-25 14:59:46,879 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt17 has updated
+2016-07-25 14:59:46,894 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3nnew01t has updated
+2016-07-25 14:59:46,909 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3io02t has updated
+2016-07-25 14:59:46,925 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt26 has updated
+2016-07-25 14:59:46,940 [MainThread:140193866974976] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3yl02t has updated
+2016-07-25 14:59:46,940 [MainThread:140193866974976] [vmserver:56] [appinfo_excel_to_db:compare_update] [INFO]- there has 80 vm info update and 0 vm info failed
+2016-07-25 15:11:09,297 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdsql01 has updated
+2016-07-25 15:11:09,315 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdrd02 has updated
+2016-07-25 15:11:09,334 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdrd03 has updated
+2016-07-25 15:11:09,353 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdkf03 has updated
+2016-07-25 15:11:09,374 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdsql02 has updated
+2016-07-25 15:11:09,393 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdkf02 has updated
+2016-07-25 15:11:09,412 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdtm03 has updated
+2016-07-25 15:11:09,430 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdel01t has updated
+2016-07-25 15:11:09,448 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdtm01t has updated
+2016-07-25 15:11:09,534 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdkf01t has updated
+2016-07-25 15:11:09,552 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdrd01t has updated
+2016-07-25 15:11:09,570 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdmq01t has updated
+2016-07-25 15:11:09,588 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2jpsr01t has updated
+2016-07-25 15:11:09,605 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2ndtm01t has updated
+2016-07-25 15:11:09,623 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2k3ap01 has updated
+2016-07-25 15:11:09,642 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2k3db01 has updated
+2016-07-25 15:11:09,660 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2k3db02 has updated
+2016-07-25 15:11:09,678 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncnlfi064 has updated
+2016-07-25 15:11:09,697 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2k3ap01t has updated
+2016-07-25 15:11:09,716 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2k3ap02t has updated
+2016-07-25 15:11:09,735 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3epsg08t has updated
+2016-07-25 15:11:09,753 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3epsg07t has updated
+2016-07-25 15:11:09,770 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3epsg05t has updated
+2016-07-25 15:11:09,788 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3epsg04t has updated
+2016-07-25 15:11:09,814 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3epsg09t has updated
+2016-07-25 15:11:09,833 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3epsg06t has updated
+2016-07-25 15:11:09,850 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncnlfi620 has updated
+2016-07-25 15:11:09,868 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1us06 has updated
+2016-07-25 15:11:09,885 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1dct32 has updated
+2016-07-25 15:11:09,903 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1us07 has updated
+2016-07-25 15:11:09,920 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1us08 has updated
+2016-07-25 15:11:09,939 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1us05 has updated
+2016-07-25 15:11:09,956 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3dxhd01 has updated
+2016-07-25 15:11:09,974 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3dxdb01 has updated
+2016-07-25 15:11:09,992 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3dxzy01 has updated
+2016-07-25 15:11:10,010 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3dhsng02 has updated
+2016-07-25 15:11:10,027 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3dhsng01 has updated
+2016-07-25 15:11:10,044 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2sqpt01 has updated
+2016-07-25 15:11:10,061 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc2net01 has updated
+2016-07-25 15:11:10,080 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2jkyc04_clone has updated
+2016-07-25 15:11:10,099 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2sc14t has updated
+2016-07-25 15:11:10,115 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2sc11t has updated
+2016-07-25 15:11:10,132 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2sc12t has updated
+2016-07-25 15:11:10,149 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2sc13t has updated
+2016-07-25 15:11:10,168 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2sc15t has updated
+2016-07-25 15:11:10,186 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2sc10t has updated
+2016-07-25 15:11:10,203 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2k3db01 has updated
+2016-07-25 15:11:10,220 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2apmn01 has updated
+2016-07-25 15:11:10,236 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2apmn02 has updated
+2016-07-25 15:11:10,254 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2k3ap01 has updated
+2016-07-25 15:11:10,270 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2k3db02 has updated
+2016-07-25 15:11:10,287 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2laik01 has updated
+2016-07-25 15:11:10,305 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2k8s10t has updated
+2016-07-25 15:11:10,323 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2k8s02t has updated
+2016-07-25 15:11:10,341 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2k8s06t has updated
+2016-07-25 15:11:10,358 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2k8s09t has updated
+2016-07-25 15:11:10,375 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2k8s07t has updated
+2016-07-25 15:11:10,392 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2k8s04t has updated
+2016-07-25 15:11:10,409 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2k8s03t has updated
+2016-07-25 15:11:10,427 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2k8s05t has updated
+2016-07-25 15:11:10,444 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2k8s01t has updated
+2016-07-25 15:11:10,461 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2k8s08t has updated
+2016-07-25 15:11:10,480 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1wf4 has updated
+2016-07-25 15:11:10,497 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1wf1 has updated
+2016-07-25 15:11:10,515 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1wf3 has updated
+2016-07-25 15:11:10,532 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1wf2 has updated
+2016-07-25 15:11:10,549 [MainThread:139806379013888] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2bdbd01 has updated
+2016-07-25 15:11:10,549 [MainThread:139806379013888] [vmserver:56] [appinfo_excel_to_db:compare_update] [INFO]- there has 67 vm info update and 0 vm info failed
+2016-07-25 15:29:03,263 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3yl04t has updated
+2016-07-25 15:29:03,289 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3enew01 has updated
+2016-07-25 15:29:03,305 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3io01t has updated
+2016-07-25 15:29:03,320 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3yl03t has updated
+2016-07-25 15:29:03,336 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3nnew02t has updated
+2016-07-25 15:29:03,352 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt10 has updated
+2016-07-25 15:29:03,369 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt09 has updated
+2016-07-25 15:29:03,386 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt06 has updated
+2016-07-25 15:29:03,401 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt30 has updated
+2016-07-25 15:29:03,417 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt02 has updated
+2016-07-25 15:29:03,432 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt29 has updated
+2016-07-25 15:29:03,448 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt28 has updated
+2016-07-25 15:29:03,463 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3ecejngh01 has updated
+2016-07-25 15:29:03,478 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt25 has updated
+2016-07-25 15:29:03,494 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3jbbf02 has updated
+2016-07-25 15:29:03,509 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt19 has updated
+2016-07-25 15:29:03,525 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2A10t01 has updated
+2016-07-25 15:29:03,541 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt11 has updated
+2016-07-25 15:29:03,556 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt04 has updated
+2016-07-25 15:29:03,572 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3sfdb01 has updated
+2016-07-25 15:29:03,587 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt05 has updated
+2016-07-25 15:29:03,603 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt18 has updated
+2016-07-25 15:29:03,618 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt20 has updated
+2016-07-25 15:29:03,633 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt13 has updated
+2016-07-25 15:29:03,648 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3xygw01 has updated
+2016-07-25 15:29:03,665 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3enew03 has updated
+2016-07-25 15:29:03,680 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3eeto01 has updated
+2016-07-25 15:29:03,697 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt27 has updated
+2016-07-25 15:29:03,712 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt08 has updated
+2016-07-25 15:29:03,727 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt15 has updated
+2016-07-25 15:29:03,742 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2A10t03 has updated
+2016-07-25 15:29:03,757 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3ecejhap01t has updated
+2016-07-25 15:29:03,772 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3ecejt21 has updated
+2016-07-25 15:29:03,787 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1lns31 has updated
+2016-07-25 15:29:03,802 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1lns34 has updated
+2016-07-25 15:29:03,817 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ocd01 has updated
+2016-07-25 15:29:03,833 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1lns33 has updated
+2016-07-25 15:29:03,848 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1lns32 has updated
+2016-07-25 15:29:03,864 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ocd01t has updated
+2016-07-25 15:29:03,879 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3xacr01 has updated
+2016-07-25 15:29:03,894 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2vvpa02 has updated
+2016-07-25 15:29:03,910 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2vvpi01 has updated
+2016-07-25 15:29:03,925 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2vvpa01 has updated
+2016-07-25 15:29:03,939 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2lng08 has updated
+2016-07-25 15:29:03,955 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2vvpi02 has updated
+2016-07-25 15:29:03,971 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2vvpd01 has updated
+2016-07-25 15:29:03,988 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1wf4 has updated
+2016-07-25 15:29:04,003 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1wf3 has updated
+2016-07-25 15:29:04,018 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2smct01 has updated
+2016-07-25 15:29:04,032 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1wf2 has updated
+2016-07-25 15:29:04,049 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1wf1 has updated
+2016-07-25 15:29:04,065 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2zljx01t has updated
+2016-07-25 15:29:04,081 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2zljx02t has updated
+2016-07-25 15:29:04,096 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2yljy01t has updated
+2016-07-25 15:29:04,111 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2hpbd02 has updated
+2016-07-25 15:29:04,126 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2hpbd01 has updated
+2016-07-25 15:29:04,142 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1portal07 has updated
+2016-07-25 15:29:04,158 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1portal12 has updated
+2016-07-25 15:29:04,172 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1portal11 has updated
+2016-07-25 15:29:04,189 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1eci01 has updated
+2016-07-25 15:29:04,203 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc1eci02 has updated
+2016-07-25 15:29:04,218 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3engx07 has updated
+2016-07-25 15:29:04,233 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2wlwb02 has updated
+2016-07-25 15:29:04,248 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2wlwb01 has updated
+2016-07-25 15:29:04,263 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2wlwb03 has updated
+2016-07-25 15:29:04,278 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3emanage01 has updated
+2016-07-25 15:29:04,292 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3elog01 has updated
+2016-07-25 15:29:04,307 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3ebakup01 has updated
+2016-07-25 15:29:04,322 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3eass01 has updated
+2016-07-25 15:29:04,338 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3etsgs01 has updated
+2016-07-25 15:29:04,352 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3ewps01 has updated
+2016-07-25 15:29:04,369 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3esrt01 has updated
+2016-07-25 15:29:04,386 [MainThread:139652228994816] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3ecdb01 has updated
+2016-07-26 06:30:02,271 [MainThread:140394956740352] [vmserver:338] [tasks:charge_info_update] [INFO]- encndc2netf01 has disk change
+2016-07-26 06:30:03,942 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-26 06:30:03,957 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 503f4c88-3ca3-6c5c-de71-83dc964eaa42-vShield Manager has created
+2016-07-26 06:30:04,006 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-26 06:30:04,011 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 503fbe30-5ff9-ea54-ed88-06344df077bb-encndc2dsts02t has created
+2016-07-26 06:30:04,024 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-26 06:30:04,029 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 503fcd64-5083-06db-832a-beefb8d95d7e-encndc2dsts01t has created
+2016-07-26 06:30:04,040 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-26 06:30:04,045 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 503ff855-f139-3a7b-adbd-85c6a9a8901e-dsva1 has created
+2016-07-26 06:30:04,346 [MainThread:140394956740352] [vmserver:356] [tasks:charge_info_update] [INFO]- created 4 vms
+2016-07-27 06:30:04,062 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-27 06:30:04,070 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 5012b0d9-0997-a29d-094b-4ce1d5d22f33-Ubuntu14.04_4C_8G_100G_template has created
+2016-07-27 06:30:04,517 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-27 06:30:04,524 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 50127a74-5469-efad-6220-5230b0e2b999-elcndc2hsdb01 has created
+2016-07-27 06:30:06,171 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-27 06:30:06,184 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 503f29df-e6de-8a84-a0d2-2c5a14f1f1c8-dstest01 has created
+2016-07-27 06:30:07,241 [MainThread:140394956740352] [vmserver:356] [tasks:charge_info_update] [INFO]- created 3 vms
+2016-07-28 06:30:00,343 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-28 06:30:00,351 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 5012984f-384d-64b2-e7e6-58307450a694-elcndc3hswb01 has created
+2016-07-28 06:30:00,919 [MainThread:140394956740352] [vmserver:312] [tasks:charge_info_update] [INFO]- elcndc2hsdb01 has cpu change
+2016-07-28 06:30:00,934 [MainThread:140394956740352] [vmserver:325] [tasks:charge_info_update] [INFO]- elcndc2hsdb01 has mem change
+2016-07-28 06:30:00,968 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-28 06:30:00,974 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 5012eb43-5ceb-c795-c21a-ea47fd41a805-elcndc3hsap01 has created
+2016-07-28 06:30:01,626 [MainThread:140394956740352] [vmserver:351] [tasks:charge_info_update] [INFO]- List matching query does not exist.
+2016-07-28 06:30:01,634 [MainThread:140394956740352] [vmserver:354] [tasks:charge_info_update] [INFO]- 5026856e-1cf6-a014-be0b-da3a93323e9d-encndc2blue01 has created
+2016-07-28 06:30:03,690 [MainThread:140394956740352] [vmserver:356] [tasks:charge_info_update] [INFO]- created 3 vms
+2016-07-28 15:48:06,621 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3ytdw02 has updated
+2016-07-28 15:48:06,639 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3ytdw01 has updated
+2016-07-28 15:48:06,656 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2esigt01 has updated
+2016-07-28 15:48:06,674 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom03t has updated
+2016-07-28 15:48:06,690 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom06t has updated
+2016-07-28 15:48:06,726 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom13t has updated
+2016-07-28 15:48:06,746 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom12t has updated
+2016-07-28 15:48:06,763 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom09t has updated
+2016-07-28 15:48:06,781 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom04t has updated
+2016-07-28 15:48:06,799 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom05t has updated
+2016-07-28 15:48:06,818 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom11t has updated
+2016-07-28 15:48:06,836 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom10t has updated
+2016-07-28 15:48:06,854 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom02t has updated
+2016-07-28 15:48:06,871 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom08t has updated
+2016-07-28 15:48:06,890 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom01t has updated
+2016-07-28 15:48:06,908 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2icom07t has updated
+2016-07-28 15:48:06,926 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3eapps23 has updated
+2016-07-28 15:48:06,944 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3eapps24 has updated
+2016-07-28 15:48:06,962 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3emanage02 has updated
+2016-07-28 15:48:06,980 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3eapps22 has updated
+2016-07-28 15:48:06,999 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3eapps25 has updated
+2016-07-28 15:48:07,017 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3eapps26 has updated
+2016-07-28 15:48:07,034 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3etsgs02 has updated
+2016-07-28 15:48:07,052 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3ewps02 has updated
+2016-07-28 15:48:07,070 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3engx03 has updated
+2016-07-28 15:48:07,088 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3engx02 has updated
+2016-07-28 15:48:07,106 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3engx04 has updated
+2016-07-28 15:48:07,125 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2wlau01 has updated
+2016-07-28 15:48:07,145 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2wlau02 has updated
+2016-07-28 15:48:07,163 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3eapps19 has updated
+2016-07-28 15:48:07,182 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3eapps20 has updated
+2016-07-28 15:48:07,200 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2olgs01 has updated
+2016-07-28 15:48:07,218 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2lng15 has updated
+2016-07-28 15:48:07,235 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2olgs02 has updated
+2016-07-28 15:48:07,254 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2logs01t has updated
+2016-07-28 15:48:07,272 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2xsglt01t has updated
+2016-07-28 15:48:07,290 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2xsglt06t has updated
+2016-07-28 15:48:07,308 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2xsglt02t has updated
+2016-07-28 15:48:07,326 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2xsglt07t has updated
+2016-07-28 15:48:07,343 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2xsglt04t has updated
+2016-07-28 15:48:07,361 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2xsglt03t has updated
+2016-07-28 15:48:07,379 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2xsglt05t has updated
+2016-07-28 15:48:07,397 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3engx05 has updated
+2016-07-28 15:48:07,473 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3engx06 has updated
+2016-07-28 15:48:07,512 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3epsg03t has updated
+2016-07-28 15:48:07,531 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3epsg01t has updated
+2016-07-28 15:48:07,550 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3epsg02t has updated
+2016-07-28 15:48:07,568 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2eas03 has updated
+2016-07-28 15:48:07,586 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3yljy02 has updated
+2016-07-28 15:48:07,604 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3yljy01 has updated
+2016-07-28 15:48:07,622 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3dhs01 has updated
+2016-07-28 15:48:07,641 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng07 has updated
+2016-07-28 15:48:07,658 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2wlsc02 has updated
+2016-07-28 15:48:07,677 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng11 has updated
+2016-07-28 15:48:07,695 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng03 has updated
+2016-07-28 15:48:07,714 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng04 has updated
+2016-07-28 15:48:07,733 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng12 has updated
+2016-07-28 15:48:07,751 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2wlsc03 has updated
+2016-07-28 15:48:07,769 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng08 has updated
+2016-07-28 15:48:07,788 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2wlsc01 has updated
+2016-07-28 15:48:07,806 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng13 has updated
+2016-07-28 15:48:07,824 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng05 has updated
+2016-07-28 15:48:07,842 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng10 has updated
+2016-07-28 15:48:07,860 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng06 has updated
+2016-07-28 15:48:07,878 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng01 has updated
+2016-07-28 15:48:07,895 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng02 has updated
+2016-07-28 15:48:07,912 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cng09 has updated
+2016-07-28 15:48:07,930 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3dhs01 has updated
+2016-07-28 15:48:07,950 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3dhs06 has updated
+2016-07-28 15:48:07,969 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3dhs05 has updated
+2016-07-28 15:48:07,988 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3dhs04 has updated
+2016-07-28 15:48:08,006 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3dhs02 has updated
+2016-07-28 15:48:08,024 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3dhs02 has updated
+2016-07-28 15:48:08,042 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc3dhs03 has updated
+2016-07-28 15:48:08,061 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3dhs03 has updated
+2016-07-28 15:48:08,079 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdkf01 has updated
+2016-07-28 15:48:08,097 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdrd01 has updated
+2016-07-28 15:48:08,116 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdtm01 has updated
+2016-07-28 15:48:08,134 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdtm04 has updated
+2016-07-28 15:48:08,153 [MainThread:140560818919168] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdtm02 has updated
+2016-07-28 15:48:08,153 [MainThread:140560818919168] [vmserver:56] [appinfo_excel_to_db:compare_update] [INFO]- there has 80 vm info update and 0 vm info failed
+2016-07-28 16:56:04,182 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2lng06 has updated
+2016-07-28 16:56:04,198 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ecsdb01 has updated
+2016-07-28 16:56:04,212 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2mlagt01 has updated
+2016-07-28 16:56:04,228 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1eas6 has updated
+2016-07-28 16:56:04,243 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2yums01 has updated
+2016-07-28 16:56:04,258 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2lng11 has updated
+2016-07-28 16:56:04,272 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2csdi02 has updated
+2016-07-28 16:56:04,286 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1cwyx08 has updated
+2016-07-28 16:56:04,300 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ecsap01 has updated
+2016-07-28 16:56:04,315 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ecsq01 has updated
+2016-07-28 16:56:04,329 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2bhsp01_bak has updated
+2016-07-28 16:56:04,343 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1cwyx06 has updated
+2016-07-28 16:56:04,358 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cwftp01 has updated
+2016-07-28 16:56:04,372 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2webs01 has updated
+2016-07-28 16:56:04,386 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1lngt01 has updated
+2016-07-28 16:56:04,401 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2mail02 has updated
+2016-07-28 16:56:04,416 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2qhdb03 has updated
+2016-07-28 16:56:04,430 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2lng07 has updated
+2016-07-28 16:56:04,448 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm cnlfknt046 has updated
+2016-07-28 16:56:04,466 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2cwyh01 has updated
+2016-07-28 16:56:04,493 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2enwm01 has updated
+2016-07-28 16:56:04,523 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1cwyx07 has updated
+2016-07-28 16:56:04,538 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2qhwb07 has updated
+2016-07-28 16:56:04,552 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2zabx01 has updated
+2016-07-28 16:56:04,569 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2zabx02 has updated
+2016-07-28 16:56:04,583 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2bdmq01 has updated
+2016-07-28 16:56:04,597 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2lng14 has updated
+2016-07-28 16:56:04,612 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2sxfl01 has updated
+2016-07-28 16:56:04,627 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ecsap02t has updated
+2016-07-28 16:56:04,643 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2csdi01 has updated
+2016-07-28 16:56:04,658 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2zabx03 has updated
+2016-07-28 16:56:04,672 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1eas7 has updated
+2016-07-28 16:56:04,687 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2zdsj04 has updated
+2016-07-28 16:56:04,702 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2bwyjs01 has updated
+2016-07-28 16:56:04,717 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2mail01 has updated
+2016-07-28 16:56:04,735 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2zdsj05 has updated
+2016-07-28 16:56:04,750 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2lng04 has updated
+2016-07-28 16:56:04,764 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ITD_TO_ENN_OVF has updated
+2016-07-28 16:56:04,778 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncnlfi7980 has updated
+2016-07-28 16:56:04,794 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2zdsj02 has updated
+2016-07-28 16:56:04,808 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc2jq01 has updated
+2016-07-28 16:56:04,823 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2lng10 has updated
+2016-07-28 16:56:04,839 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2zlapp02_bak has updated
+2016-07-28 16:56:04,854 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2zdsj01 has updated
+2016-07-28 16:56:04,868 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2qhwb05 has updated
+2016-07-28 16:56:04,883 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2zdsj03 has updated
+2016-07-28 16:56:04,897 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2zdsj06 has updated
+2016-07-28 16:56:04,912 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2dlmg01 has updated
+2016-07-28 16:56:04,928 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2tjdb02 has updated
+2016-07-28 16:56:04,942 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2tjdb01 has updated
+2016-07-28 16:56:04,956 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2dzyc01 has updated
+2016-07-28 16:56:04,971 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2lng03 has updated
+2016-07-28 16:56:04,996 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2blej01t has updated
+2016-07-28 16:56:05,013 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2shebei01t has updated
+2016-07-28 16:56:05,028 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2lng06t has updated
+2016-07-28 16:56:05,044 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2gcyh02t has updated
+2016-07-28 16:56:05,068 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ENCNDC2WEBS03T has updated
+2016-07-28 16:56:05,083 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2saplt01t has updated
+2016-07-28 16:56:05,097 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2sxfs01t has updated
+2016-07-28 16:56:05,112 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2nnew01t has updated
+2016-07-28 16:56:05,128 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc2el11.addom.xinaogroup.com has updated
+2016-07-28 16:56:05,144 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc2el12.addom.xinaogroup.com has updated
+2016-07-28 16:56:05,161 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc2el13.addom.xinaogroup.com has updated
+2016-07-28 16:56:05,177 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc3xzkf01t has updated
+2016-07-28 16:56:05,193 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncnlfi7981_clone has updated
+2016-07-28 16:56:05,207 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ysjsj01t has updated
+2016-07-28 16:56:05,239 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2nwsc01t has updated
+2016-07-28 16:56:05,257 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2ecsap02t has updated
+2016-07-28 16:56:05,274 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2hwpo01t has updated
+2016-07-28 16:56:05,290 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2tomc01t has updated
+2016-07-28 16:56:05,305 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2mong02t has updated
+2016-07-28 16:56:05,319 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2fuel01t has updated
+2016-07-28 16:56:05,333 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndc1eas5 has updated
+2016-07-28 16:56:05,348 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2fndb03t has updated
+2016-07-28 16:56:05,363 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2gcbq01t has updated
+2016-07-28 16:56:05,378 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm ncndcshebei_clone has updated
+2016-07-28 16:56:05,394 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm cnlfknt060.addom.xinaogroup.com has updated
+2016-07-28 16:56:05,409 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm encndc2nnew03t has updated
+2016-07-28 16:56:05,424 [MainThread:139675653945088] [vmserver:53] [appinfo_excel_to_db:compare_update] [INFO]- vm elcndc2xygw01t has updated
+2016-07-28 16:56:05,424 [MainThread:139675653945088] [vmserver:56] [appinfo_excel_to_db:compare_update] [INFO]- there has 79 vm info update and 0 vm info failed

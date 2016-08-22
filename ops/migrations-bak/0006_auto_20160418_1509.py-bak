@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from django.db import migrations, models
+from django.conf import settings
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+        migrations.swappable_dependency(settings.AUTH_USER_MODEL),
+        ('ops', '0005_auto_20160418_1432'),
+    ]
+
+    operations = [
+        migrations.AddField(
+            model_name='vmserver',
+            name='app_admin',
+            field=models.ForeignKey(verbose_name=b'\xe5\xba\x94\xe7\x94\xa8\xe7\xae\xa1\xe7\x90\x86\xe5\x91\x98', to_field=b'username', blank=True, to=settings.AUTH_USER_MODEL, null=True),
+        ),
+        migrations.AddField(
+            model_name='vmserver',
+            name='app_admin_contact',
+            field=models.CharField(max_length=100, null=True, verbose_name=b'\xe8\x81\x94\xe7\xb3\xbb\xe7\x94\xb5\xe8\xaf\x9d', blank=True),
+        ),
+        migrations.AddField(
+            model_name='vmserver',
+            name='app_admin_mail',
+            field=models.CharField(max_length=100, null=True, verbose_name=b'\xe8\x81\x94\xe7\xb3\xbb\xe9\x82\xae\xe4\xbb\xb6', blank=True),
+        ),
+        migrations.AlterField(
+            model_name='hostinfo',
+            name='pool',
+            field=models.ForeignKey(to='ops.VspherePool', to_field=b'pool_name', verbose_name=b'\xe8\xb5\x84\xe6\xba\x90\xe6\xb1\xa0'),
+        ),
+        migrations.AlterField(
+            model_name='hostinfo',
+            name='sn',
+            field=models.ForeignKey(db_column=b'sn', verbose_name=b'SN\xe5\x8f\xb7', to='asset.Host'),
+        ),
+        migrations.AlterField(
+            model_name='networkdeviceinfo',
+            name='industry_group',
+            field=models.ForeignKey(to_field=b'name', blank=True, to='asset.IndustryGroup', null=True),
+        ),
+        migrations.AlterField(
+            model_name='vmserver',
+            name='pool_id',
+            field=models.ForeignKey(to='ops.VspherePool', to_field=b'pool_name', verbose_name=b'\xe8\xb5\x84\xe6\xba\x90\xe6\xb1\xa0'),
+        ),
+    ]

@@ -1,0 +1,44 @@
+<fieldset class="module">
+    <h2>操作记录</h2>
+    <table class="table table-bordered table-condensed table">
+        <thead>
+            <tr>
+                <th>状态</th>
+                <th>申请人</th>
+                <th>原因</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>
+                    <select id="content" class="select-search">
+                        <option value="在用">在用</option>
+                        <option value="借出">借出</option>
+                        <option value="维修">维修</option>
+                        <option value="闲置">闲置</option>
+                        <option value="出库">出库</option>
+                        <option value="报废">报废</option>
+                    </select>
+                </th>
+                <th><input id="peo" type="text"></th>
+                <th><input id="reason" type="text"></th>
+                <th><button class="btn btn-success" onclick="go">提交</button></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</fieldset>
+<script>
+    function go(){
+        var name = "sunyaxiong";
+        var now_time = timezone.now()
+        var reason = document.getElementById("reason").value;
+        jQuery.ajax({
+                    url: "/asset/up/",
+                    type: "POST",
+                    data: {op_name:name, op_reason:reason, burn_time:now_time},
+                    dataType: "json",
+                }
+        )
+
+    }
+</script>

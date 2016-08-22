@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block title %}command_excute{% endblock %}
+</head>
+<body>
+{% block env_name %}{{ list_name }}{% endblock %}
+{% block env_ip %} {{ ip }} {% endblock %}
+{% block navi_2 %} {% endblock %}
+{% block navi_3 %} {% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <form id='cmd_execute' class="form-inline"  method="post">
+                <fieldset>
+                    <legend>远程执行</legend>
+                        <div class="form-group">
+                            <label>用户名：</label>
+                            <input class="form-control" autofocus type="text" id="username" />
+                        </div>
+                        <div class="form-group">
+                            <label>密码：</label>
+                            <input class="form-control" type="password" id="password" />
+                        </div>
+                        <div class="form-group">
+                            <label>命令：</label>
+                            <input class="form-control" type="text" id="commands" />
+                        </div>
+                </fieldset>
+            </form>
+            <hr>
+            <button id='execute' class="btn btn-submit">执行命令</button>
+        </div>
+        <div class="row">
+            <pre id='echo_set' class="text-muted well well-sm no-shadow" style="margin-top: 10px;"></pre>
+        </div>
+    </div>
+{% endblock %}
+{% block scr %}
+    <script>
+    $(document).ready(function(){
+        $('#execute').click(function(){
+            var username = $('#username').val();
+            var password = $('#password').val();
+            var command = $('#commands').val()
+            console.log(username)
+            $.ajax({
+            url: "/vmserver/return_value/",
+            method: "POST",
+            data:{
+                username: username,
+                password: password,
+                hostname: '{{ ip }}',
+                command: command
+            },
+            dataType: 'json',
+            success: function(data){
+                $('#echo_set').html(data)
+            }
+        });
+        });
+    });
+    </script>
+{% endblock %}

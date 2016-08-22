@@ -1,0 +1,157 @@
+{% extends 'base.html' %}
+{% block env_name %}{{ page_head }}{% endblock %}
+{% block env_ip %} {% endblock %}
+{% block navi_2 %}vmserver{% endblock %}
+{% block navi_3 %}vms{% endblock %}
+{% block content %}
+    <div id="main-panel">
+    </div>
+    <div class="panel-body" ng-app="assetApp" ng-controller="NotesCtrl">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">VCenter自动抓取信息</a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <div>
+                            <h4><label class="label label-default">操作系统</label></h4>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>清单主机名</th>
+                                    <th>主机名</th>
+                                    <th>IP地址</th>
+                                    <th>操作系统</th>
+                                    <th>版本</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>{{ vm.list_name }}</td>
+                                    <td>{{ vm.hostname }}</td>
+                                    <td>{{ vm.ip }}</td>
+                                    <td>{{ vm.os }}</td>
+                                    <td>{{ vm.os_version }}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div>
+                            <h4><label class="label label-default">cpu、内存、磁盘信息</label></h4>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>CPU数量</th>
+                                    <th>内存</th>
+                                    <th>磁盘</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>{{ vm.cpu }}<span class="small">C</span></td>
+                                    <td>{{ vm.mem }}<span class="small">GB</span></td>
+                                    <td>{{ vm.total_hard_disk }}<span class="small">GB</span></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div>
+                            <h4><label class="label label-default">VCenter信息</label></h4>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>VCenterIP</th>
+                                    <th>ESXI主机IP</th>
+                                    <th>uuid</th>
+                                    <th>虚拟机状态</th>
+                                    <th>tools状态</th>
+                                    <th>电源状态</th>
+                                    <th>是否模板</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>{{ vm.vc }}</td>
+                                    <td>{{ vm.esxi_host }}</td>
+                                    <td>{{ vm.instance_uuid }}</td>
+                                    <td>{{ vm.guest_status }}</td>
+                                    <td>{{ vm.tools_status }}</td>
+                                    <td>{{ vm.power_status }}</td>
+                                    <td>{{ vm.template }}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box box-info">
+            <div class="box-header with-border">
+                <h3 class="box-title">管理信息</h3>
+            </div>
+            <!-- /.box-header -->
+            <!-- form start -->
+            <form class="form-horizontal" action="/vmserver/update_manage_info/" method="POST">
+                <div class="box-body">
+                    <div class="form-group">
+                        <input for="uuid" class="label label-inverse" name="uuid" value="{{ vm.instance_uuid }}">
+                        <label for="app_name" class="col-sm-2 control-label">应用名称</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="app_name" value="{{ vm.app_name }}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="app_role" class="col-sm-2 control-label">应用角色</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="app_role" value="{{ vm.app_role }}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="app_desc" class="col-sm-2 control-label">应用描述</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="app_description" value="{{ vm.app_description }}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="app_admin" class="col-sm-2 control-label">管理员</label>
+                        <div class="col-sm-10">
+                            <select class="form-control select2 select2-hidden-accessible" style="width: 100%;"
+                                    tabindex="-1" aria-hidden="true" name="app_admin">
+                                <option selected="selected">{{ vm.app_admin }}</option>
+                                {% for i in users %}
+                                    <option>{{ i.name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="app_desc" class="col-sm-2 control-label">归属单位</label>
+                        <div class="col-sm-10">
+                            <select class="form-control select2 select2-hidden-accessible" style="width: 100%;"
+                                    tabindex="-1" aria-hidden="true" name="industry_group">
+                                <option selected="selected">{{ vm.industry_group }}</option>
+                                {% for i in coms %}
+                                    <option>{{ i.name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-body -->
+                <div class="box-footer">
+                    <button type="submit" class="btn btn-info pull-right">更新</button>
+                </div>
+                <!-- /.box-footer -->
+            </form>
+        </div>
+    </div>
+<script>
+    $(document).ready(function () {
+
+        });
+</script>
+{% endblock %}

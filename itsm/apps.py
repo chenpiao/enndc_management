@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+# coding:utf-8
+
+from __future__ import unicode_literals
+
+from django.apps import AppConfig
+
+
+class ItsmConfig(AppConfig):
+    name = 'itsm'
+    verbose_name = '服务管理'

@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+<head>
+    {% block title %} dashboard {% endblock %}
+</head>
+<body>
+
+    {% block env_name %}
+        {{ vc_name }}
+    {% endblock %}
+    {% block env_ip %}
+        {{ vc_ip }}
+    {% endblock %}
+    {% block navi_2 %}
+        dashboard
+    {% endblock %}
+    {% block navi_3 %} {{ vc_ip }} {% endblock %}
+    {% block content %}
+        <div class="row">
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3>{{ data.host_amount }}</h3>
+
+                        <p>Host 数量</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-bag"></i>
+                    </div>
+                    <a href="/vmserver/hosts?ip={{ vc_ip }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h3>{% widthratio vc_mem_per 1 100 %}<sup style="font-size: 20px">%</sup></h3>
+
+                        <p>VC内存使用率</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-stats-bars"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3>{{ data.vm_amount }}</h3>
+
+                        <p>虚拟机数量</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-ios-folder"></i>
+                    </div>
+                    <a href="/vmserver/vc?ip={{ vc_ip }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-red">
+                    <div class="inner">
+                        <h3>65</h3>
+
+                        <p>DataStore数量</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-pie-graph"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+        </div>
+    {% endblock %}
+{% block scr %}
+{% endblock %}
+</body>

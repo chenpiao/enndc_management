@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+<head>
+{% block title %}hosts{% endblock %}
+</head>
+<body>
+{% block env_name %}宿主机情况概览{% endblock %}
+{% block env_ip %} {% endblock %}
+{% block navi_2 %}host{% endblock %}
+{% block navi_3 %}info{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <label>VC环境：</label><label>{{ vc_name }}<small>{{ vc_ip }}</small></label>
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div class="dataTable_wrapper">
+                        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                            <thead>
+                            <tr>
+                                <th>ESXI主机IP</th>
+                                <th>CPU核心数</th>
+                                <th>CPU主频<small>MHz</small></th>
+                                <th>CPU使用情况<small>MHz</small></th>
+                                <th>CPU使用率</th>
+                                <th>内存使用情况<small>GB</small></th>
+                                <th>内存容量<small>GB</small></th>
+                                <th>内存使用率</th>
+                                <th>网卡数量</th>
+                                <th>HBA卡数量</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for host in hosts %}
+                                <tr class="odd gradeX">
+                                    <td><a href="#">{{ host.name }}</a></td>
+                                    <td>{{ host.cpu_cores }}</td>
+                                    <td>{{ host.cpu_mhz }}</td>
+                                    <td>{{ host.cpu_usage }}</td>
+                                    <td>{{ host.cpu_percentage }}</td>
+                                    <td>{{ host.mem_usage }}</td>
+                                    <td>{{ host.mem }}</td>
+                                    <td>{{ host.mem_percentage }}</td>
+                                    <td>{{ host.num_nics }}</td>
+                                    <td>{{ host.num_hbas }}</td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.table-responsive -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->{% endblock %}
+{% block scr %}
+    <script src="/static/datatables/jquery.dataTables.min.js"></script>
+    <script src="/static/datatables/dataTables.bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#dataTables-example').DataTable({
+                responsive: false
+            });
+        });
+    </script>
+{% endblock %}
+</body>

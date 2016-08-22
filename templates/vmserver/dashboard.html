@@ -1,0 +1,240 @@
+{% extends 'base.html' %}
+<head>
+    {% block title %} dashboard {% endblock %}
+</head>
+<body>
+
+    {% block env_name %}
+        {{ vc_name }}
+    {% endblock %}
+    {% block env_ip %}
+        {{ vc_ip }}
+    {% endblock %}
+    {% block navi_2 %}
+        dashboard
+    {% endblock %}
+    {% block navi_3 %} {{ vc_ip }} {% endblock %}
+    {% block content %}
+        <div class="row">
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3>{{ data.host_amount }}</h3>
+
+                        <p>Host 数量</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-bag"></i>
+                    </div>
+                    <a href="/vmserver/hosts?ip={{ vc_ip }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h3>{% widthratio vc_mem_per 1 100 %}<sup style="font-size: 20px">%</sup></h3>
+
+                        <p>VC内存使用率</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-stats-bars"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3>{{ data.vm_amount }}</h3>
+
+                        <p>虚拟机数量</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-ios-folder"></i>
+                    </div>
+                    <a href="/vmserver/vc?ip={{ vc_ip }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-red">
+                    <div class="inner">
+                        <h3>65</h3>
+
+                        <p>DataStore数量</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-pie-graph"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+        </div>
+        <div id="host_cpu_health" style="min-width:700px;height:400px"></div>
+        <div id="host_mem_health" style="min-width:700px;height:400px"></div>
+        <!--div id="container" style="min-width:700px;height:400px"></div-->
+    {% endblock %}
+{% block scr %}
+    <script>
+        $(function () {
+            $('#container').highcharts({
+                chart: {
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false
+                },
+                title: {
+                    text: '操作系统分布图'
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            color: '#000000',
+                            connectorColor: '#000000',
+                            format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                        }
+                    }
+                },
+                series: [{
+                    type: 'pie',
+                    name: 'ds',
+                    data: [
+                        ['WindowsGuest',   60],
+                        ['LinuxGuest',       30],
+                        {
+                            name: 'Other',
+                            y: 10,
+                            sliced: true,
+                            selected: true
+                        },
+                    ]
+                }]
+            });
+        });
+        var list_name = [];
+        var list_cpu_per = [];
+        var list_mem_per = [];
+        {% for host in hosts %}
+            list_name.push('{{ host.name }}');
+            list_cpu_per.push({{ host.cpu_percentage }});
+            list_mem_per.push({{ host.mem_percentage }});
+        {% endfor %}
+        $('#host_cpu_health').highcharts({
+            chart: {
+                type: 'column',
+                margin: [ 50, 50, 100, 80]
+            },
+            title: {
+                text: '宿主机CPU使用情况概览'
+            },
+            xAxis: {
+                categories: list_name,
+                labels: {
+                    rotation: -45,
+                    align: 'right',
+                    style: {
+                        fontSize: '13px',
+                        fontFamily: 'Verdana, sans-serif'
+                    }
+                }
+
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'cpu (%)'
+                }
+            },
+            legend: {
+                enabled: false
+            },
+            tooltip: {
+                pointFormat: 'CPU使用情况: <b>{point.y:.1f} %</b>',
+            },
+            series: [{
+                name: 'Population',
+                data: list_cpu_per,
+                dataLabels: {
+                    enabled: true,
+                    rotation: -90,
+                    color: '#080808',
+                    align: 'right',
+                    style: {
+                        fontWeight: 'bold'
+                    },
+                    x: 25,
+                    y: 10,
+                    style: {
+                        fontSize: '13px',
+                        fontFamily: 'Verdana, sans-serif',
+                        textShadow: '0 0 3px black'
+                    }
+                }
+            }]
+        });
+        $('#host_mem_health').highcharts({
+            chart: {
+                type: 'column',
+                margin: [ 50, 50, 100, 80]
+            },
+            title: {
+                text: '宿主机内存使用情况概览'
+            },
+            xAxis: {
+                categories: list_name,
+                labels: {
+                    rotation: -45,
+                    align: 'right',
+                    style: {
+                        fontSize: '13px',
+                        fontFamily: 'Verdana, sans-serif'
+                    }
+                }
+
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'mem (%)'
+                }
+            },
+            legend: {
+                enabled: false
+            },
+            tooltip: {
+                pointFormat: '内存使用情况: <b>{point.y:.1f} %</b>',
+            },
+            series: [{
+                name: 'Population',
+                data: list_mem_per,
+                dataLabels: {
+                    enabled: true,
+                    rotation: -90,
+                    color: '#080808',
+                    align: 'right',
+                    x: 25,
+                    y: 10,
+                    style: {
+                        fontSize: '13px',
+                        fontFamily: 'Verdana, sans-serif',
+                        textShadow: '0 0 3px black'
+                    }
+                }
+            }]
+        });
+    </script>
+{% endblock %}
+</body>

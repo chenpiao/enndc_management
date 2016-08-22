@@ -1,0 +1,93 @@
+{% extends 'admin/base.html' %}
+{% block messages %}
+<div id="main-panel">
+</div>
+<div class="panel-body" ng-app="assetApp" ng-controller="NotesCtrl">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">管理信息</a>
+                </h4>
+            </div>
+        </div>
+    </div>
+    <div>
+        <form action="/">
+            <th>
+                <td><label>主机名：</label><input type="text" name="hostname" ng-model="it_name"></td>
+                <td><label>IP地址：</label><input type="text" name="IP" ng-model="it_name">&nbsp;
+                    <label id="ip" class="btn btn-success" ng-click="NotesCtrl">update</label></td>
+            </th>
+        </form>
+    </div>
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">硬件信息</a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <div>
+                        <h4><label class="label label-default">操作系统</label></h4>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>操作系统</th>
+                                    <th>版本</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>aa</td>
+                                    <td>14.04</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <h4><label class="label label-default">处理器信息</label></h4>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>CPU数量</th>
+                                    <th>供应商</th>
+                                    <th>主频</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>test1</td>
+                                    <td>intel</td>
+                                    <td>2000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <h4><label class="label label-default">内存信息</label></h4>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>内存总大小</th>
+                                    <th>供应商</th>
+                                    <th>主频</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>{{ ans_info }}</td>
+                                    <td>{{ ans_info }}</td>
+                                    <td>1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock messages %}

@@ -1,0 +1,85 @@
+/usr/local/lib/python2.7/dist-packages/django/db/utils.py:239: RemovedInDjango19Warning: In Django 1.9 the TEST_CHARSET connection setting will be moved to a CHARSET entry in the TEST setting
+  self.prepare_test_settings(alias)
+
+/home/appadmin/.local/lib/python2.7/site-packages/celery/app/defaults.py:251: CPendingDeprecationWarning: 
+    The 'CELERYD_LOG_FILE' setting is scheduled for deprecation in     version 2.4 and removal in version v4.0.     Use the --logfile argument instead
+
+  alternative='Use the {0.alt} instead'.format(opt))
+
+/home/appadmin/.local/lib/python2.7/site-packages/celery/app/defaults.py:251: CPendingDeprecationWarning: 
+    The 'CELERYBEAT_LOG_FILE' setting is scheduled for deprecation in     version 2.4 and removal in version v4.0.     Use the --logfile argument instead
+
+  alternative='Use the {0.alt} instead'.format(opt))
+
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:260: RemovedInDjango19Warning: "requires_model_validation" is deprecated in favor of "requires_system_checks".
+  RemovedInDjango19Warning)
+
+celery beat v3.1.23 (Cipater) is starting.
+__    -    ... __   -        _
+Configuration ->
+    . broker -> django://localhost//
+    . loader -> djcelery.loaders.DjangoLoader
+    . scheduler -> djcelery.schedulers.DatabaseScheduler
+
+    . logfile -> /var/www/cmdb/enndc_management/logs/celery/beat.log@%INFO
+    . maxinterval -> now (0s)
+/usr/local/lib/python2.7/dist-packages/django/db/utils.py:239: RemovedInDjango19Warning: In Django 1.9 the TEST_CHARSET connection setting will be moved to a CHARSET entry in the TEST setting
+  self.prepare_test_settings(alias)
+
+/usr/local/lib/python2.7/dist-packages/django/core/management/base.py:260: RemovedInDjango19Warning: "requires_model_validation" is deprecated in favor of "requires_system_checks".
+  RemovedInDjango19Warning)
+
+/usr/local/lib/python2.7/dist-packages/celery/app/defaults.py:251: CPendingDeprecationWarning: 
+    The 'CELERYD_LOG_FILE' setting is scheduled for deprecation in     version 2.4 and removal in version v4.0.     Use the --logfile argument instead
+
+  alternative='Use the {0.alt} instead'.format(opt))
+
+/usr/local/lib/python2.7/dist-packages/celery/app/defaults.py:251: CPendingDeprecationWarning: 
+    The 'CELERYBEAT_LOG_FILE' setting is scheduled for deprecation in     version 2.4 and removal in version v4.0.     Use the --logfile argument instead
+
+  alternative='Use the {0.alt} instead'.format(opt))
+
+Running a worker with superuser privileges when the
+worker accepts messages serialized with pickle is a very bad idea!
+
+If you really want to continue then you have to set the C_FORCE_ROOT
+environment variable (but please think about this before you do).
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+/usr/local/lib/python2.7/dist-packages/celery/app/defaults.py:251: CPendingDeprecationWarning: 
+    The 'CELERYD_LOG_FILE' setting is scheduled for deprecation in     version 2.4 and removal in version v4.0.     Use the --logfile argument instead
+
+  alternative='Use the {0.alt} instead'.format(opt))
+
+/usr/local/lib/python2.7/dist-packages/celery/app/defaults.py:251: CPendingDeprecationWarning: 
+    The 'CELERYBEAT_LOG_FILE' setting is scheduled for deprecation in     version 2.4 and removal in version v4.0.     Use the --logfile argument instead
+
+  alternative='Use the {0.alt} instead'.format(opt))
+
+Running a worker with superuser privileges when the
+worker accepts messages serialized with pickle is a very bad idea!
+
+If you really want to continue then you have to set the C_FORCE_ROOT
+environment variable (but please think about this before you do).
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+/usr/local/lib/python2.7/dist-packages/celery/app/defaults.py:251: CPendingDeprecationWarning: 
+    The 'CELERYD_LOG_FILE' setting is scheduled for deprecation in     version 2.4 and removal in version v4.0.     Use the --logfile argument instead
+
+  alternative='Use the {0.alt} instead'.format(opt))
+
+/usr/local/lib/python2.7/dist-packages/celery/app/defaults.py:251: CPendingDeprecationWarning: 
+    The 'CELERYBEAT_LOG_FILE' setting is scheduled for deprecation in     version 2.4 and removal in version v4.0.     Use the --logfile argument instead
+
+  alternative='Use the {0.alt} instead'.format(opt))
+
+Running a worker with superuser privileges when the
+worker accepts messages serialized with pickle is a very bad idea!
+
+If you really want to continue then you have to set the C_FORCE_ROOT
+environment variable (but please think about this before you do).
+
+User information: uid=0 euid=0 gid=0 egid=0
+
