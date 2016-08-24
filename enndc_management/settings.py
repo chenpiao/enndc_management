@@ -77,7 +77,7 @@ DATABASES = {
         'NAME': 'test_enndc',
         'USER': 'root',
         'PASSWORD': 'Enndc@test',
-        'HOST': '10.37.149.85',
+        'HOST': '***',
         'PORT': '3306',
         'TEST_CHARSET': 'utf8',
         'OPTIONS': {
@@ -167,9 +167,9 @@ REST_FRAMEWORK = {
 #ldap
 from django_auth_ldap.config import LDAPSearch, MemberDNGroupType
 import ldap
-AUTH_LDAP_SERVER_URI = 'ldap://tds01.xinaogroup.com:389'
+AUTH_LDAP_SERVER_URI = 'ldap://***:389'
 AUTH_LDAP_BIND_DN = "cn=root"
-AUTH_LDAP_BIND_PASSWORD = "Passw0rd"
+AUTH_LDAP_BIND_PASSWORD = "***"
 
 # ldap
 AUTH_LDAP_CONNECTION_OPTIONS = {ldap.OPT_REFERRALS: 0}
@@ -230,9 +230,7 @@ AUTHENTICATION_BACKENDS = (
 
 # vspherer interface config
 VC_POOL = {
-    '10.37.17.101': u'廊坊生产',
-    '10.37.17.190': u'廊坊测试',
-    '10.32.18.151': u'北京生产',
+    ***
 }
 USER = "cmdb"
 PASSWORD = "1qazxsw@"
@@ -241,7 +239,7 @@ PASSWORD = "1qazxsw@"
 import djcelery
 djcelery.setup_loader()
 BROKER_URL = 'django://'  # 直接使用django做broker生产环境不建议，建议使用redis或者rabbitMQ
-# BROKER_URL = 'redis://:auth@10.37.149.85:22222/0'  # broker使用reids
+# BROKER_URL = 'redis://:auth@10.1.1.1:22222/0'  # broker使用reids
 CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'  # 定时任务
 CELERY_RESULT_BACKEND = 'djcelery.backends.database:DatabaseBackend'
 CELERY_ENABLE_UTC = False  # 不是用UTC
@@ -252,10 +250,9 @@ CELERYBEAT_LOG_FILE = BASE_DIR + "/logs/celery/beat.log"  # beat log路径
 CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']  # 允许的格式
 
 # send mail
-EMAIL_HOST = 'smtp.enn.cn'
+EMAIL_HOST = '***'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = 'eCloud@enn.cn'
-# EMAIL_HOST_PASSWORD = 'Sun880519'
+EMAIL_HOST_USER = '***'
 EMAIL_HOST_USER_TLS = True
 EMAIL_SUBJECT_PREFIX = u'[CMDB自动报表]'
 

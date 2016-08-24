@@ -97,7 +97,7 @@ def vc_overview_151(request):
 
 def vms(request):
     user = request.user
-    servers = List.objects.filter(delete_time=None)
+    servers = List.custom_objs.vms_all()
     return render_to_response(
         'vmserver/all_vms.html', {
             'list': servers,

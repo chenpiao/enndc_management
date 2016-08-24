@@ -14,13 +14,13 @@ from django.contrib.auth.models import User
 
 def ldap_bind():
     username = "cn=root"
-    password = "Passw0rd"
-    ldap_conn = ldap.initialize("ldap://tds02.xinaogroup.com:389")
+    password = "***"
+    ldap_conn = ldap.initialize("ldap://***:389")
     ldap_conn.simple_bind(username, password)
     return ldap_conn
 
 def ldap_group_user_search():
-    baseDN = "cn=groups,dc=enn, dc=com"
+    baseDN = "cn=groups,dc=***, dc=com"
     searchScope = ldap.SCOPE_SUBTREE
     searchFilter = "cn=ecloud"
     retrieveAttributes = ["uniquemember"]
@@ -44,7 +44,7 @@ def ldap_group_user_search():
 
 
 def ldap_user_search():
-    baseDN = "cn=users,dc=enn, dc=com"
+    baseDN = "cn=users,dc=***, dc=com"
     searchScope = ldap.SCOPE_SUBTREE
     retrieveAttributes = ['givenname', 'mail', 'mobile', 'uid', 'sn', 'userPassword']
     uids = ldap_group_user_search()
